@@ -71,7 +71,7 @@ The task is to write a function/method/procedure/subroutine that will validate a
    3. (optional) Use the DateTime Extensions to display the date in 3 different time zones
    4. (optional) Write a HTMLHelper instead of writing directly to the view to display the date in 3 different time zones. There is a HTML Helper already in the project for reference
    
-* Add a new Controller and associated view to the project. The name should be DaysOfTheWeekController. This is a simple controller test to list the days of the week on the URL /DaysOfWeek
+* Add a new Controller and associated view to the project. The name should be DaysOfTheWeekController. This is a simple controller test to list the days of the week on the URL /DaysOfTheWeek
    1. In the index view of that controller, print full name days for every day of the week (eg Monday, Tuesday, Wednesday)
    2. Add a get action to that controller which accepts a number and translates that to a named weekday, where 0 is Sunday, and 6 is Saturday. eg /DaysOfTheWeek/4 would output Thursday
    3. (Optional) Change the name of the route which this controller responds to without changing the controller name. The new route should be /Days
